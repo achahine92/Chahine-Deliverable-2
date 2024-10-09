@@ -26,6 +26,7 @@ let total = 0;
 for (let i = 0; i < holes; i++) {
     let putts = Number(prompt(`How many putts for hole ${holeCount}? (par is 3)`));
     holeCount++;
+    console.log(putts);
     total += putts;
 }
 console.log(total);
